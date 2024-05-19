@@ -1,10 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap");
-
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 * {
     margin:0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 header{
@@ -16,8 +19,8 @@ header{
     background: red;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    z-index: 99;
+    align-items: center; 
+    z-index: 99;    
 }
 
 .title{
@@ -26,11 +29,25 @@ header{
     color:white ;
     margin-left: 1rem;
 }
-
 .navigation a{
-    position: relative;
+    position:relative;
     font-size: 1em;
     text-decoration: none;
     margin-left: 40px;
     color: white;
+}
+
+.navigation ::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width:0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navigation :hover:after{
+  width: 100%;
 }
