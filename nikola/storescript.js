@@ -1,23 +1,23 @@
 const products = [
     {
-        name: 'Product 1',
+        name: 'Slovenia Moravia',
         price: '$29.99',
-        imageUrl: 'https://via.placeholder.com/300x200'
+        imageUrl: '/images/_DSC9639-1.jpg'
     },
     {
-        name: 'Product 2',
+        name: 'Slovenia Moravia',
         price: '$39.99',
-        imageUrl: 'https://via.placeholder.com/300x200'
+        imageUrl: '/images/_DSC1315-3.jpg'
     },
     {
-        name: 'Product 3asdasd',
+        name: 'Persidi',
         price: '$49.99',
-        imageUrl: 'https://via.placeholder.com/300x200'
+        imageUrl: '/images/_DSC5591-1.jpg'
     },
     {
-        name: 'Product 4',
+        name: 'Shiroka polqna',
         price: '$49.99',
-        imageUrl: 'https://via.placeholder.com/300x200'
+        imageUrl: '/images/_DSC7133-2.jpg'
     }
 ];
 function renderProducts(products) {
