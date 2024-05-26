@@ -11,7 +11,7 @@ function sendEmail() {
       Subject: "New content",
       Body: `Name: ${name}\nEmail: ${email}\nMessage: ${document.querySelector("textarea").value}`
   }).then(
-      message => alert(message),
+      message => alert("Message sent succesfully"),
       error => console.error("Failed to send message:", error)
   );
 }
